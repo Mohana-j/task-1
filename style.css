@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    opacity: 80px;
+}
+
+body {
+    color: #333;
+    background-image: url('https://image.made-in-china.com/226f3j00AuloLpTrHckC/Modern-Design-High-Quality-Hotel-Apartment-Standard-Room-Twin-Size-Bed-Wooden-Bedroom-Sets-Furniture.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+nav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav_logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.nav_link {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav_link a {
+    font-size: 1rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav_link a:hover {
+    color: wheat;
+    background-color: rgb(26, 16, 2);
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%; /* Ensure it fits on smaller screens */
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.check-btn {
+    background-color: aquamarine;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.check-btn:hover {
+    background-color: rgb(123, 190, 152);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav_link {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .booking-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+    }
+
+    .check-btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .form-group label {
+        font-size: 0.8rem;
+    }
+
+    .form-group input {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    .check-btn {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+}
