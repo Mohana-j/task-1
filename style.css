@@ -14,13 +14,13 @@ body {
     background-size: cover;
 }
 
-/* Link Styles */
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Navbar */
+
 nav {
     background-color: transparent;
     position: fixed;
@@ -60,7 +60,6 @@ nav {
     border-radius: 5px;
 }
 
-/* Hero Section */
 .hero-section {
     height: 100vh;
     display: flex;
@@ -83,7 +82,7 @@ nav {
     margin-bottom: 20px;
 }
 
-/* Booking Form */
+
 .booking-form {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
@@ -91,11 +90,10 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 90%; /* Ensure it fits on smaller screens */
+    width: 90%; 
     margin: auto;
 }
 
-/* Add flexbox layout to make fields side by side */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -115,7 +113,7 @@ nav {
     width: 100%;
 }
 
-/* Add styling to layout Check-in, Check-out, Guests, and Children inputs side by side */
+
 .check-in-out-container, .guests-children-container {
     display: flex;
     gap: 10px;
@@ -124,10 +122,10 @@ nav {
 }
 
 .check-in-out-container div, .guests-children-container div {
-    width: 48%; /* Make both inputs take up nearly half of the container width */
+    width: 48%; 
 }
 
-/* Check button styling */
+
 .check-btn {
     background-color: aquamarine;
     color: #000;
@@ -144,7 +142,7 @@ nav {
     background-color: rgb(123, 190, 152);
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -179,14 +177,14 @@ nav {
         font-size: 0.9rem;
     }
 
-    /* Stack Check-in, Check-out, Guests, and Children vertically on smaller screens */
+   
     .check-in-out-container, .guests-children-container {
         flex-direction: column;
         align-items: flex-start;
     }
 
     .check-in-out-container div, .guests-children-container div {
-        width: 100%; /* Make the inputs take up full width on smaller screens */
+        width: 100%; 
     }
 }
 
@@ -211,5 +209,6 @@ nav {
     .check-btn {
         padding: 8px 15px;
         font-size: 0.8rem;
+        margin-top: 5px;
     }
 }
