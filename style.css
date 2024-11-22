@@ -60,7 +60,7 @@ nav {
     border-radius: 5px;
 }
 
-.hero-section {
+.link-section {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -71,13 +71,13 @@ nav {
     color: white;
 }
 
-.hero-content h1 {
+.main-content h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.hero-content p {
+.main-content p {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -156,11 +156,11 @@ nav {
         gap: 10px;
     }
 
-    .hero-content h1 {
+    .main-content h1 {
         font-size: 2rem;
     }
 
-    .hero-content p {
+    .main-content p {
         font-size: 1rem;
     }
 
@@ -189,11 +189,11 @@ nav {
 }
 
 @media (max-width: 480px) {
-    .hero-content h1 {
+    .main-content h1 {
         font-size: 1.8rem;
     }
 
-    .hero-content p {
+    .main-content p {
         font-size: 0.9rem;
     }
 
